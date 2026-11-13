@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Cinzel[wght].ttf",
+    "path": "ofl/cinzel/Cinzel[wght].ttf",
+    "sha": "d218a0b9c8879fd5a708872cc0ef357e507b35ca",
+    "size": 125468,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/Cinzel[wght].ttf?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/cinzel/Cinzel[wght].ttf",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/d218a0b9c8879fd5a708872cc0ef357e507b35ca",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/Cinzel%5Bwght%5D.ttf",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/Cinzel[wght].ttf?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/d218a0b9c8879fd5a708872cc0ef357e507b35ca",
+      "html": "https://github.com/google/fonts/blob/main/ofl/cinzel/Cinzel[wght].ttf"
+    }
+  },
+  {
+    "name": "DESCRIPTION.en_us.html",
+    "path": "ofl/cinzel/DESCRIPTION.en_us.html",
+    "sha": "b12c423c9408e84ac74291972b04e8750e4e6525",
+    "size": 363,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/DESCRIPTION.en_us.html?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/cinzel/DESCRIPTION.en_us.html",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/b12c423c9408e84ac74291972b04e8750e4e6525",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/DESCRIPTION.en_us.html",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/DESCRIPTION.en_us.html?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/b12c423c9408e84ac74291972b04e8750e4e6525",
+      "html": "https://github.com/google/fonts/blob/main/ofl/cinzel/DESCRIPTION.en_us.html"
+    }
+  },
+  {
+    "name": "FONTLOG.txt",
+    "path": "ofl/cinzel/FONTLOG.txt",
+    "sha": "e93f88c91a4c0046876416b3a1c6de49902c9082",
+    "size": 1738,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/FONTLOG.txt?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/cinzel/FONTLOG.txt",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/e93f88c91a4c0046876416b3a1c6de49902c9082",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/FONTLOG.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/FONTLOG.txt?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/e93f88c91a4c0046876416b3a1c6de49902c9082",
+      "html": "https://github.com/google/fonts/blob/main/ofl/cinzel/FONTLOG.txt"
+    }
+  },
+  {
+    "name": "METADATA.pb",
+    "path": "ofl/cinzel/METADATA.pb",
+    "sha": "ecb9151207211a74842af4dabbe9d0e2967bd371",
+    "size": 586,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/METADATA.pb?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/cinzel/METADATA.pb",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/ecb9151207211a74842af4dabbe9d0e2967bd371",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/METADATA.pb",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/METADATA.pb?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/ecb9151207211a74842af4dabbe9d0e2967bd371",
+      "html": "https://github.com/google/fonts/blob/main/ofl/cinzel/METADATA.pb"
+    }
+  },
+  {
+    "name": "OFL.txt",
+    "path": "ofl/cinzel/OFL.txt",
+    "sha": "afdfd1412be934fe7cc40a5a2c5e06e354c44dcf",
+    "size": 4383,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/OFL.txt?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/cinzel/OFL.txt",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/afdfd1412be934fe7cc40a5a2c5e06e354c44dcf",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/OFL.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/OFL.txt?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/afdfd1412be934fe7cc40a5a2c5e06e354c44dcf",
+      "html": "https://github.com/google/fonts/blob/main/ofl/cinzel/OFL.txt"
+    }
+  },
+  {
+    "name": "config.yaml",
+    "path": "ofl/cinzel/config.yaml",
+    "sha": "810689da25e219e29bfde6b3206bd48fb8d15dd7",
+    "size": 60,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/config.yaml?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/cinzel/config.yaml",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/810689da25e219e29bfde6b3206bd48fb8d15dd7",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/config.yaml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/config.yaml?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/810689da25e219e29bfde6b3206bd48fb8d15dd7",
+      "html": "https://github.com/google/fonts/blob/main/ofl/cinzel/config.yaml"
+    }
+  },
+  {
+    "name": "upstream_info.md",
+    "path": "ofl/cinzel/upstream_info.md",
+    "sha": "50b49bcf1d62139a9639b8ddd7ecf2165c6e5058",
+    "size": 3434,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/upstream_info.md?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/cinzel/upstream_info.md",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/50b49bcf1d62139a9639b8ddd7ecf2165c6e5058",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/upstream_info.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/cinzel/upstream_info.md?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/50b49bcf1d62139a9639b8ddd7ecf2165c6e5058",
+      "html": "https://github.com/google/fonts/blob/main/ofl/cinzel/upstream_info.md"
+    }
+  }
+]

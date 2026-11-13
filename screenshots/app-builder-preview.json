@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Aeternum",
+      "hasCanvas": false,
+      "bodyTextLen": 532,
+      "bodyTextHash": "e4cad456fb27b6e19c4ceb43d27c9e668bd6c1e0ab7000e63bde8a610cb7bd13",
+      "bodyTextPrefix": "GRADO 11 5 DE DICIEMBRE 5 DE DICIEMBRE · 10:00 A.M. PROMOCIÓN AE",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Aeternum",
+      "hasCanvas": false,
+      "bodyTextLen": 495,
+      "bodyTextHash": "ad45563321f931c85509ce878bcf7899241005bace687a9e0662ed54ea3c86d7",
+      "bodyTextPrefix": "5 DE DICIEMBRE PROMOCIÓN AETERNUM SE ACERCA 0 0 MESES 2 1 DÍAS 1",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

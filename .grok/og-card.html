@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<style>
+  @font-face {
+    font-family: "Cormorant Garamond";
+    src: url("fonts/CormorantGaramond.ttf") format("truetype");
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: block;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #030504;
+  }
+  .card {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    background: #030504;
+  }
+  svg.scene {
+    position: absolute;
+    inset: 0;
+    width: 1200px;
+    height: 630px;
+    display: block;
+  }
+  .lockup {
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    top: 368px;
+    text-align: center;
+    color: #E7F2EA;
+  }
+  h1 {
+    margin: 0;
+    font-family: "Cormorant Garamond", "Liberation Serif", serif;
+    font-weight: 500;
+    font-size: 156px;
+    line-height: 0.8;
+    letter-spacing: 0.012em;
+    color: #E7F2EA;
+    text-shadow:
+      0 0 28px rgba(61, 255, 120, 0.28),
+      0 2px 0 rgba(3, 5, 4, 0.4);
+  }
+  .sub {
+    margin: 26px 0 0;
+    font-family: "Cormorant Garamond", "Liberation Serif", serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.42em;
+    text-indent: 0.42em;
+    color: rgba(231, 242, 234, 0.78);
+  }
+  .gem {
+    color: #3DFF78;
+    padding: 0 0.15em;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <svg class="scene" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <radialGradient id="voidGlow" cx="50%" cy="36%" r="48%">
+          <stop offset="0%" stop-color="#1a5c38" stop-opacity="0.55"/>
+          <stop offset="38%" stop-color="#0c2e1c" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#030504" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#3DFF78" stop-opacity="0"/>
+          <stop offset="28%" stop-color="#3DFF78" stop-opacity="0.20"/>
+          <stop offset="100%" stop-color="#3DFF78" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="lancet" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#E7F2EA"/>
+          <stop offset="42%" stop-color="#3DFF78"/>
+          <stop offset="100%" stop-color="#3DFF78" stop-opacity="0.05"/>
+        </linearGradient>
+        <radialGradient id="jewel" cx="50%" cy="40%" r="60%">
+          <stop offset="0%" stop-color="#E7F2EA"/>
+          <stop offset="45%" stop-color="#3DFF78"/>
+          <stop offset="100%" stop-color="#145c34"/>
+        </radialGradient>
+        <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="5" result="b"/>
+          <feMerge>
+            <feMergeNode in="b"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <filter id="grain">
+          <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="7" result="n"/>
+          <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.91  0 0 0 0 0.96  0 0 0 0 0.93  0 0 0 0.5 0"/>
+        </filter>
+        <mask id="cowl" maskUnits="userSpaceOnUse">
+          <path fill="white" d="M0,-188 C-54,-146 -98,-86 -114,-18 L-130,72 C-134,116 -96,146 -46,160 L0,174 L46,160 C96,146 134,116 130,72 L114,-18 C98,-86 54,-146 0,-188 Z"/>
+          <path fill="black" d="M0,-74 C30,-42 44,-4 44,32 L44,96 C44,120 24,136 0,144 C-24,136 -44,120 -44,96 L-44,32 C-44,-4 -30,-42 0,-74 Z"/>
+        </mask>
+      </defs>
+
+      <rect width="1200" height="630" fill="#030504"/>
+      <rect width="1200" height="630" fill="url(#voidGlow)"/>
+
+      <g opacity="0.85">
+        <polygon points="560,-20 600,-20 690,650 610,650" fill="url(#shaft)"/>
+        <polygon points="600,-20 648,-20 760,650 680,650" fill="url(#shaft)" opacity="0.55"/>
+        <polygon points="520,-20 566,-20 500,650 420,650" fill="url(#shaft)" opacity="0.4"/>
+        <polygon points="470,0 500,0 360,650 280,650" fill="url(#shaft)" opacity="0.22"/>
+      </g>
+
+      <g transform="translate(600 176)" fill="none" stroke="#E7F2EA" stroke-width="1.25" opacity="0.28">
+        <circle r="132"/>
+        <circle r="114" opacity="0.7"/>
+        <path d="M0,-132 L0,-114 M0,114 L0,132 M-132,0 L-114,0 M132,0 L114,0"/>
+        <path d="M-93,-93 L-80,-80 M93,-93 L80,-80 M-93,93 L-80,80 M93,93 L80,80" opacity="0.8"/>
+      </g>
+
+      <g transform="translate(600 176) scale(0.74)">
+        <path fill="#07160f" d="M0,-188 C-54,-146 -98,-86 -114,-18 L-130,72 C-134,116 -96,146 -46,160 L0,174 L46,160 C96,146 134,116 130,72 L114,-18 C98,-86 54,-146 0,-188 Z"/>
+
+        <g mask="url(#cowl)">
+          <rect x="-160" y="-210" width="320" height="420" fill="#0c3324"/>
+          <polygon fill="#082216" points="-20,-190 20,-190 8,-70 -8,-70"/>
+          <polygon fill="#145c34" points="-20,-190 -108,-70 -46,-28 -8,-70"/>
+          <polygon fill="#1a7a42" points="20,-190 108,-70 46,-28 8,-70"/>
+          <polygon fill="#0e4028" points="-108,-70 -124,20 -48,36 -46,-28"/>
+          <polygon fill="#187244" points="108,-70 124,20 48,36 46,-28"/>
+          <polygon fill="#123f28" points="-124,20 -136,78 -52,92 -48,36"/>
+          <polygon fill="#0a2c1c" points="124,20 136,78 52,92 48,36"/>
+          <polygon fill="#1c6840" points="-136,78 -70,150 -8,96 -52,92"/>
+          <polygon fill="#22924e" points="136,78 70,150 8,96 52,92"/>
+          <polygon fill="#0d3a24" points="-70,150 0,176 0,100 -8,96"/>
+          <polygon fill="#16643c" points="70,150 0,176 0,100 8,96"/>
+          <g fill="none" stroke="#E7F2EA" stroke-width="2.4" stroke-linejoin="round" opacity="0.88">
+            <polyline points="-20,-190 -8,-70 8,-70 20,-190"/>
+            <polyline points="-108,-70 -46,-28 -8,-70"/>
+            <polyline points="108,-70 46,-28 8,-70"/>
+            <polyline points="-124,20 -48,36 -46,-28"/>
+            <polyline points="124,20 48,36 46,-28"/>
+            <polyline points="-136,78 -52,92 -48,36"/>
+            <polyline points="136,78 52,92 48,36"/>
+            <polyline points="-70,150 -8,96 -52,92"/>
+            <polyline points="70,150 8,96 52,92"/>
+            <polyline points="0,176 0,100"/>
+          </g>
+        </g>
+
+        <path fill="none" stroke="#E7F2EA" stroke-width="2.6" d="M0,-188 C-54,-146 -98,-86 -114,-18 L-130,72 C-134,116 -96,146 -46,160 L0,174 L46,160 C96,146 134,116 130,72 L114,-18 C98,-86 54,-146 0,-188 Z"/>
+
+        <path fill="#030504" stroke="#E7F2EA" stroke-width="2.2" d="M0,-74 C30,-42 44,-4 44,32 L44,96 C44,120 24,136 0,144 C-24,136 -44,120 -44,96 L-44,32 C-44,-4 -30,-42 0,-74 Z"/>
+
+        <path filter="url(#softGlow)" fill="url(#lancet)" d="M0,-46 L8,8 L6,108 L0,128 L-6,108 L-8,8 Z"/>
+        <path filter="url(#softGlow)" fill="url(#jewel)" stroke="#E7F2EA" stroke-width="1.4" d="M0,-102 L12,-80 L0,-58 L-12,-80 Z"/>
+      </g>
+
+      <rect width="1200" height="630" filter="url(#grain)" opacity="0.22"/>
+      <rect x="36" y="28" width="1128" height="574" fill="none" stroke="#3DFF78" stroke-opacity="0.16" stroke-width="1"/>
+    </svg>
+
+    <div class="lockup">
+      <h1>Aeternum</h1>
+      <p class="sub">PROMOCIÓN XI<span class="gem">·</span>5 DE DICIEMBRE</p>
+    </div>
+  </div>
+</body>
+</html>
